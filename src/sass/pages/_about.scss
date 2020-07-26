@@ -1,0 +1,182 @@
+.vector--one {
+  position: absolute;
+  right: 15rem;
+  bottom: 5rem;
+  height: 5rem !important;
+}
+
+.vector--two {
+  position: absolute;
+  height: 12rem !important;
+  bottom: 4rem;
+  right: 45rem;
+}
+
+.about--heading {
+  //   position: absolute;
+  top: 10rem;
+  //   margin-top: 0 !important;
+  margin-left: 10rem;
+
+  span:first-child {
+    color: $first-color;
+  }
+
+  span:nth-of-type(2) {
+    font-size: 1.8rem;
+  }
+}
+.about--img {
+  margin-top: 7rem;
+}
+
+.history {
+  padding: 0 4rem !important;
+
+  &__heading {
+    font-size: 4rem;
+    font-weight: 700;
+    position: relative;
+
+    &::after {
+      content: "";
+      background: #d11c1c;
+      position: absolute;
+      height: 0.5rem;
+      left: 0;
+      top: 6rem;
+      //   transform: translateX(-165%);
+      width: 15rem;
+    }
+  }
+
+  &__content {
+    margin-top: 4rem;
+    font-size: 1.8rem;
+    font-weight: 300;
+  }
+}
+
+.steps {
+  background: linear-gradient(
+      rgba(darken($second-color, 10%), 0.8),
+      rgba(darken($second-color, 10%), 0.8)
+    ),
+    url("../../img//stepsbg.png");
+  background-repeat: no-repeat;
+  height: 50rem;
+  background-position: center;
+  padding: 4rem 0;
+
+  &__heading {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+    position: relative;
+
+    &::after {
+      content: "";
+      background: #d11c1c;
+      position: absolute;
+      height: 0.5rem;
+      top: 6rem;
+      transform: translateX(-160%);
+      width: 15rem;
+    }
+  }
+
+  &__circle {
+    background: #d11c1c;
+    width: 5rem;
+    height: 5rem;
+    padding: 0.6rem 0;
+    border-radius: 5rem;
+    margin: 3rem auto;
+    text-align: center;
+    transform: translateX(9rem);
+    display: inline-block;
+    color: $third-color;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  &__description {
+    h4 {
+      color: $third-color;
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+
+    p {
+      font-size: 1.6rem;
+      color: $third-color;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .vector--one {
+    bottom: 5rem;
+    right: 3rem;
+  }
+
+  .vector--two {
+    bottom: 3rem;
+    right: 30rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .vector--one {
+    bottom: 5rem;
+    right: 3rem;
+  }
+
+  .vector--two {
+    bottom: 1rem;
+    right: 25rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .vector--one {
+    bottom: 3rem;
+    right: 10rem;
+  }
+
+  .vector--two {
+    bottom: -1rem;
+    right: 29rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .vector--one {
+    bottom: 3rem;
+    right: 3rem;
+  }
+
+  .vector--two {
+    bottom: -1rem;
+    right: 22rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .vector--one,
+  .vector--two {
+    display: none;
+  }
+
+  .about--heading {
+    margin-left: 5rem;
+  }
+
+  .mobile--hide {
+    display: none !important;
+  }
+
+  .steps {
+    height: 90rem;
+  }
+}

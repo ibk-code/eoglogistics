@@ -1,0 +1,20 @@
+.skip {
+  &:link {
+    position: fixed;
+    left: 3rem;
+    color: $first-color;
+    transition: 1s easein;
+    z-index: 100;
+    text-decoration: none !important;
+    top: -12rem;
+  }
+
+  &:focus {
+    top: 0;
+    color: $first-color;
+  }
+
+  &:hover {
+    color: $first-color;
+  }
+}

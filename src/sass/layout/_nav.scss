@@ -1,0 +1,40 @@
+header {
+  nav {
+    padding: 0 15rem !important;
+  }
+
+  .navbar-nav {
+    margin-right: 8rem;
+
+    .nav-link {
+      color: $fourth-color !important;
+      &:not(:last-child) {
+        padding-right: 4rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    nav {
+      padding: 0 3.5rem !important;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  header {
+    .navbar-dark .navbar-toggler {
+      border: 2px solid #ffffff;
+    }
+
+    .navbar-nav {
+      padding-top: 4rem;
+      margin-right: 8rem;
+      .nav-link {
+        color: $second-color !important;
+      }
+    }
+  }
+}

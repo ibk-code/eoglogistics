@@ -1,0 +1,14 @@
+.imgdesc {
+  margin-top: 15rem;
+
+  img {
+    width: 100%;
+    height: 20rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .imgdesc {
+    display: none;
+  }
+}

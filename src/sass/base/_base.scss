@@ -1,0 +1,53 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+
+  body {
+    font-family: "Nunito", sans-serif;
+  }
+}
+
+a {
+  font-size: 2rem;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: none !important;
+  }
+}
+
+body {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 55.5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 56.2%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 50.2%;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  html {
+    font-size: 44.2%;
+  }
+}

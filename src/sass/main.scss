@@ -1,0 +1,40 @@
+// abstracts import
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variable";
+
+// base import
+@import "base/animation";
+@import "base/typography";
+@import "base/utilities";
+@import "base/base";
+
+// components import
+@import "components/button";
+@import "components/preloader";
+
+// layout import
+@import "layout/header";
+@import "layout/skipcontent";
+@import "layout/nav";
+@import "layout/main";
+@import "layout/process";
+@import "layout/imgdescription";
+@import "layout/footer";
+
+// pages import
+@import "pages/about";
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.logo {
+  height: 70px;
+}
+
+.color--primary {
+  color: $first-color;
+}
+
+.spacing {
+  margin-top: 10rem;
+}

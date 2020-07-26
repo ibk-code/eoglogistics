@@ -1,0 +1,52 @@
+.process {
+  &__heading {
+    font-size: 4rem;
+    font-weight: 700;
+  }
+
+  &__subheading {
+    font-size: 2rem;
+    position: relative;
+
+    &::after {
+      content: "";
+      background: #d11c1c;
+      position: absolute;
+      height: 0.5rem;
+      /* right: 50%; */
+      top: 4rem;
+      /* margin: 0 auto; */
+      transform: translateX(-165%);
+      /* left: 45%; */
+      width: 15rem;
+    }
+  }
+
+  &__method {
+    &--img {
+      height: 5rem;
+    }
+  }
+
+  &__details {
+    margin-top: 5rem;
+  }
+
+  &__method {
+    display: flex;
+  }
+
+  &__info {
+    margin-top: 0.1rem;
+    margin-left: 1.5rem;
+
+    h4 {
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+
+    p {
+      font-size: 1.8rem;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.preloader {
+  position: fixed;
+  top: 50%;
+  /* right: 50%; */
+  bottom: 50%;
+  left: 45%;
+}
+
+@media screen and (max-width: 1024px) {
+  .preloader {
+    left: 35%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .preloader {
+    left: 25%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .preloader {
+    left: 15%;
+  }
+}

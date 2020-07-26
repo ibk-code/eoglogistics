@@ -1,0 +1,21 @@
+.btn__brand {
+  font-size: 2rem;
+  padding: 1rem 5rem;
+  background: #d11c1c;
+  border: none;
+  color: #ffffff !important;
+  border-radius: 5rem;
+}
+
+.btn--transform {
+  display: inline-block;
+  margin-top: 2rem;
+  //   font-size: 1.5rem !important;
+  transform: translateY(70%);
+}
+
+@media screen and (max-width: 900px) {
+  .btn--transform {
+    transform: translateY(15%);
+  }
+}

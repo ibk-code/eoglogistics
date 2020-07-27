@@ -1,6 +1,7 @@
 import React, { Suspense, lazy } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Preloader from "./components/Preloader";
+import contact from "./pages/contact";
 const Home = lazy(() => import("./pages/home"));
 const About = lazy(() => import("./pages/about"));
 
@@ -11,6 +12,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
+          <Route exact path="/contact" component={contact} />
         </Switch>
       </Router>
     </Suspense>

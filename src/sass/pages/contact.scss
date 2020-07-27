@@ -15,6 +15,11 @@
       background-color:white;
       height: 100%;
       width: 100%;
+      padding: 4rem 2rem;
+
+      input:not(:last-child){
+        margin-top: 4rem;
+      }
    
     
   }
@@ -40,7 +45,7 @@
   }
  .form-control{
     font-size: 14px !important;
-    margin-top: 60px !important ;
+    // margin-top: 24px !important ;
     padding: 10px !important;
     height: 50px !important;
   } 
@@ -80,7 +85,7 @@
      
   
   .form-button{
-    font-size: 2rem !important;
+    font-size: 1.8rem !important;
     margin: 17px;
     padding: 10px;
     background: #d11c1c !important;
@@ -193,7 +198,8 @@
 
   .mainer{
     background-color:#F8F7F7 !important;
-    margin-top: 5px !important;
+    margin-top: 9rem !important;
+    padding: 4rem 0;
 
     width: 100%;
   }

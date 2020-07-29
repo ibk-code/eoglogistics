@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 function Footer() {
   return (
@@ -14,14 +14,13 @@ function Footer() {
                 alt="Eoglogistics logo"
               />
               <p className="mt-4 text-white">
-                Eoglogistics is a number one leading company in handling
-                logistics and delivery across the border. A fast and cost
-                effective freight logistics service
+                EOG Logistics International is a logistic, freight and courier
+                services provider based in Lagos.
               </p>
             </div>
             <div>
               <h4>Quick Links</h4>
-              <a href="/home" aria-label="footer home link">
+              <a href="/" aria-label="footer home link">
                 Home
               </a>
               <a href="/about" aria-label="footer about link">
@@ -35,10 +34,8 @@ function Footer() {
               <h4>Services</h4>
               <p>Air freight</p>
               <p>Ocean freight</p>
-              <p>Ground Shipping</p>
-              <p>Warehousing</p>
-              <p>Storage</p>
-              <p>Delivery Van</p>
+              <p>Courier Services</p>
+              <p>Road Freight and Haulage</p>
             </div>
           </div>
         </Container>

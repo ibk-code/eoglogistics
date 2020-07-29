@@ -10,10 +10,9 @@ function AboutHeader() {
             <h1 className="header__text about--heading">
               <span className="header__text--main">About Us</span>
               <span className="header__text--sub">
-                incomparably efficient logistics solutions? Complex logistics
-                projects require special skills and specialised knowledge, the
-                ability to think outside the box, quick and decisive management
-                and excellent
+                Our vision in EOG is to provide high quality, convenient and
+                comprehensive Haulage, freight and courier services at the
+                lowest possible cost.
               </span>
             </h1>
           </Col>

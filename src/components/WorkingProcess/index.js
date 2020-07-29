@@ -13,11 +13,10 @@ function WorkingProcess() {
             <Col sm={12} md={4}>
               <span className="steps__circle">1</span>
               <div className="steps__description">
-                <h4>Choose Your Sevice</h4>
+                <h4>Book</h4>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Incidunt praesentium dicta consectetur fuga neque fugit a at.
-                  Cum quod vero assumenda iusto.
+                  Book us for a any logistics service of your choice today. Tell
+                  us what you want.
                 </p>
               </div>
             </Col>
@@ -26,20 +25,18 @@ function WorkingProcess() {
               <div className="steps__description">
                 <h4>Choose Your Sevice</h4>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Incidunt praesentium dicta consectetur fuga neque fugit a at.
-                  Cum quod vero assumenda iusto.
+                  Choose the kind of logistics you want us to carry out for you
+                  today from our various services.
                 </p>
               </div>
             </Col>
             <Col sm={12} md={4}>
               <span className="steps__circle">3</span>
               <div className="steps__description">
-                <h4>Choose Your Sevice</h4>
+                <h4>Delivery</h4>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Incidunt praesentium dicta consectetur fuga neque fugit a at.
-                  Cum quod vero assumenda iusto.
+                  We handle the delivery and safery of your package. At
+                  eoglogistics your package is in the safest hands
                 </p>
               </div>
             </Col>

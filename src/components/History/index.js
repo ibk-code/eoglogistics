@@ -12,15 +12,27 @@ function History() {
             </div>
             <div className="history__content">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Blanditiis deleniti reprehenderit animi est eaque corporis!
-                Nisi, asperiores nam amet doloribus, soluta ut reiciendis.
-                Consequatur modi rem, vero eos ipsam voluptas.
+                EOG Logistics International is a logistic, freight and courier
+                services provider based in Lagos. EOG is proficient in all
+                non-passenger transportation including freight movement and
+                courier services throughout Nigeria and to neighboring West
+                African Countries. We work with our clients to support their
+                domestic and international logistics needs via road, air, rail,
+                and sea transport. We also offer courier services.
               </p>
               <p>
-                Error minus sint nobis dolor laborum architecto, quaerat.
-                Voluptatum porro expedita labore esse velit veniam laborum quo
-                obcaecati similique iusto delectus quasi!
+                Our vision in EOG is to provide high quality, convenient and
+                comprehensive Haulage, freight and courier services at the
+                lowest possible cost and exceptional customer care services in a
+                loving and caring way with strong emphasis on punctual delivery
+                of goods with sound condition of freight on delivery.
+              </p>
+              <p>
+                At EOG Logistics International, we proudly stand head and
+                shoulders above our competitors offering similar logistics
+                services. Our unique combination of experience, service, and
+                technology allows us to provide logistics services that offer a
+                high degree of reliability while remaining cost-effective.
               </p>
             </div>
             <Row className="spacing">
@@ -36,8 +48,9 @@ function History() {
                   <div className="process__info">
                     <h4>Air Freight</h4>
                     <p>
-                      We handle air freight package and ensure your product is
-                      delivered to your receiver.
+                      We work with the local and international commercial
+                      freight airlines to ensure that your long-distance freight
+                      is delivered on-time and on a consistent basis.
                     </p>
                   </div>
                 </div>
@@ -52,10 +65,11 @@ function History() {
                     />
                   </div>
                   <div className="process__info">
-                    <h4>Ground Shipping</h4>
+                    <h4>Road Freight and Haulage Services</h4>
                     <p>
-                      Trust Eoglogistics with ground shipment of your goods,
-                      home and abroad
+                      We support local, interstate, and international road
+                      freight transport, including solo and combined transports,
+                      oversize cargo, and partial loads.
                     </p>
                   </div>
                 </div>

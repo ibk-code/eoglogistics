@@ -7,10 +7,10 @@ function Process() {
       <Container>
         <div className="process">
           <h2 className="color--primary text-center process__heading">
-            Our Process
+            Our Categories
           </h2>
           <p className="text-center process__subheading">
-            Our process in handling your package
+            Various area of services cover
           </p>
         </div>
         <Row className="process__details">
@@ -18,16 +18,16 @@ function Process() {
             <div className="process__method">
               <div className="process__icon">
                 <img
-                  src="./asset/img/inspection.png"
+                  src="./asset/img/cargo.png"
                   alt="Inspection"
                   className="process__method--img"
                 />
               </div>
               <div className="process__info">
-                <h4>Inspection</h4>
+                <h4>PROJECT CARGO HANDLING</h4>
                 <p>
-                  We make sure all goods are well inspected and pass quality
-                  check.
+                  EOG Logistics also specializes in project cargo moves to
+                  customers specification and standards, including
                 </p>
               </div>
             </div>
@@ -36,16 +36,18 @@ function Process() {
             <div className="process__method">
               <div className="process__icon">
                 <img
-                  src="./asset/img/review.png"
+                  src="./asset/img/logistic.png"
                   alt="Inspection"
                   className="process__method--img"
                 />
               </div>
               <div className="process__info">
-                <h4>Review</h4>
+                <h4>LOGISTIC SOLUTIONS</h4>
                 <p>
-                  Every goods is always reviewed at Eoglogistics. We make sure
-                  no customer good is lost.
+                  At EOG Logistics, we believe in establishing strong
+                  partnerships and close working relationships with our
+                  customers to produce a comprehensive supply chain management
+                  service.
                 </p>
               </div>
             </div>
@@ -54,16 +56,18 @@ function Process() {
             <div className="process__method">
               <div className="process__icon">
                 <img
-                  src="./asset/img/delivery.png"
+                  src="./asset/img/wrench.png"
                   alt="Inspection"
                   className="process__method--img"
                 />
               </div>
               <div className="process__info">
-                <h4>Delivery</h4>
+                <h4>Aviation Services/Ground Handling</h4>
                 <p>
-                  We handle smooth delivery for every of our your goods. We make
-                  sure we deliver to your doorstep.
+                  At EOG Logistics, we can provide solutions to all your charter
+                  needs in respective of scale, we strive to find you the most
+                  suitable aircraft for your specific requirements, be it for
+                  intercontinental cargo movement or for sub-regional operations
                 </p>
               </div>
             </div>

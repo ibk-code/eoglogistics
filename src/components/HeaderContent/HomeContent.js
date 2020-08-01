@@ -10,10 +10,13 @@ function HomeHeader() {
             <h1 className="header__text">
               <span className="header__text--main">EOG Logistics</span>
               <span className="header__text--sub">
-                is a logistic, freight and courier services provider based in
-                Lagos. EOG is proficient in all non-passenger transportation
-                including freight movement and courier services throughout
-                Nigeria and to neighboring West African Countries.
+                International is a logistic, freight and courier services
+                provider based in Lagos. EOG is proficient in all non-passenger
+                transportation including freight movement and courier services
+                throughout Nigeria and to neighboring West African Countries. We
+                work with our clients to support their domestic and
+                international logistics needs via road, air, rail, and sea
+                transport.
               </span>
             </h1>
             <a

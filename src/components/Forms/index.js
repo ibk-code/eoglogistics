@@ -56,7 +56,7 @@ function forms() {
                 <h3>Address</h3>
 
                 <p className="p-text">
-                  2, Oyedele Oguniyi Street, Anthony, Lagos, Nigeria
+                  33,Ajose Street, Mende Maryland, Lagos, Nigeria.
                 </p>
               </div>
               <div className="text-f">

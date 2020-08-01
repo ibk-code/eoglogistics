@@ -15,7 +15,7 @@ function ImgDescription() {
           </Col>
           <Col md={3} xs={12}>
             <img
-              src="./asset/img/pack.png"
+              src="./asset/img/pack.jpeg"
               className="img-fluid"
               alt="Packing"
             />
@@ -24,7 +24,7 @@ function ImgDescription() {
             <img src="./asset/img/air.png" className="img-fluid" alt="air" />
           </Col>
           <Col md={3} xs={12}>
-            <img src="./asset/img/ship.png" className="img-fluid" alt="ship" />
+            <img src="./asset/img/ship.jpeg" className="img-fluid" alt="ship" />
           </Col>
         </Row>
       </Container>

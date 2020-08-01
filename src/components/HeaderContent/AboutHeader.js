@@ -12,7 +12,9 @@ function AboutHeader() {
               <span className="header__text--sub">
                 Our vision in EOG is to provide high quality, convenient and
                 comprehensive Haulage, freight and courier services at the
-                lowest possible cost.
+                lowest possible cost and exceptional customer care services in a
+                loving and caring way with strong emphasis on punctual delivery
+                of goods with sound condition of freight on delivery.
               </span>
             </h1>
           </Col>

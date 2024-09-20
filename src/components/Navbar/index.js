@@ -8,7 +8,7 @@ function Navigation() {
       <Navbar collapseOnSelect expand="lg" variant="dark">
         <Navbar.Brand href="/">
           <img
-            src="./asset/img/logo.png"
+            src="./asset/img/logo.jpeg"
             className="logo"
             alt="Eoglogistics logo"
           />

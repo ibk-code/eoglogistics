@@ -12,18 +12,20 @@ function forms() {
               <Container>
                 <Row>
                   <Col xs={12} md={6}>
-                    <Form>
-                      <Form.Group controlId="formBasicEmail">
-                        <Form.Control type="email" placeholder="First name" />
-                      </Form.Group>
-                    </Form>
+                    <Form.Group controlId="first_name">
+                      <Form.Control
+                        type="first_name"
+                        placeholder="First name"
+                        style={{ marginTop: 0 }}
+                      />
+                    </Form.Group>
                   </Col>
 
                   <Col xs={12} md={6}>
-                    <Form.Group controlId="formBasicPassword">
-                      <Form.Control type="email" placeholder="Last name" />
+                    <Form.Group controlId="last_name">
+                      <Form.Control placeholder="Last name" />
                     </Form.Group>
-                    <Form.Group controlId="formBasicCheckbox"></Form.Group>
+                    {/* <Form.Group controlId="formBasicCheckbox"></Form.Group> */}
                   </Col>
                 </Row>
                 <Form.Group controlId="formBasicEmail">
@@ -56,7 +58,8 @@ function forms() {
                 <h3>Address</h3>
 
                 <p className="p-text">
-                  33,Ajose Street, Mende Maryland, Lagos, Nigeria.
+                  9, Idowu Ajao Street, Ajao Estate, Anthony Village, Lagos,
+                  Nigeria.
                 </p>
               </div>
               <div className="text-f">

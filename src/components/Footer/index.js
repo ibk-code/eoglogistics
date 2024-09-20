@@ -9,7 +9,7 @@ function Footer() {
           <div className="footer__wrap">
             <div>
               <img
-                src="./asset/img/logo.png"
+                src="./asset/img/logo.jpeg"
                 className="logo"
                 alt="Eoglogistics logo"
               />

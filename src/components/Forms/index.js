@@ -10,45 +10,65 @@ function forms() {
           <Col xs={12} md={7}>
             <div className="well">
               <Container>
-                <Row>
-                  <Col xs={12} md={6}>
-                    <Form.Group controlId="first_name">
-                      <Form.Control
-                        type="first_name"
-                        placeholder="First name"
-                        style={{ marginTop: 0 }}
-                      />
-                    </Form.Group>
-                  </Col>
+                <Form
+                  action="https://formbold.com/s/35p22"
+                  method="post"
+                  enctype="multipart/form-data"
+                >
+                  <Row>
+                    <Col xs={12} md={6}>
+                      <Form.Group controlId="first_name">
+                        <Form.Control
+                          type="text"
+                          name="first_name"
+                          placeholder="First name"
+                          style={{ marginTop: 0 }}
+                        />
+                      </Form.Group>
+                    </Col>
 
-                  <Col xs={12} md={6}>
-                    <Form.Group controlId="last_name">
-                      <Form.Control placeholder="Last name" />
-                    </Form.Group>
-                    {/* <Form.Group controlId="formBasicCheckbox"></Form.Group> */}
-                  </Col>
-                </Row>
-                <Form.Group controlId="formBasicEmail">
-                  <Form.Control
-                    type="email"
-                    placeholder="Enter email"
-                    className="email"
-                  />
-                  <Form.Text className="text-muted"></Form.Text>
-                </Form.Group>
-                <Form.Group controlId="formBasicEmail">
-                  <Form.Control
-                    type="email"
-                    placeholder="Subject"
-                    className="email"
-                  />
-                  <Form.Text className="text-muted"></Form.Text>
-                </Form.Group>
-                <Form.Group controlId="exampleForm.ControlTextarea1">
-                  <Form.Label className="text-area">Message</Form.Label>
-                  <Form.Control className="text-form" as="textarea" rows="3" />
-                </Form.Group>
-                <Button className="form-button">Send</Button>{" "}
+                    <Col xs={12} md={6}>
+                      <Form.Group controlId="last_name">
+                        <Form.Control
+                          placeholder="Last name"
+                          type="text"
+                          name="last_name"
+                        />
+                      </Form.Group>
+                      {/* <Form.Group controlId="formBasicCheckbox"></Form.Group> */}
+                    </Col>
+                  </Row>
+                  <Form.Group controlId="formBasicEmail">
+                    <Form.Control
+                      type="email"
+                      name="email"
+                      placeholder="Enter email"
+                      className="email"
+                    />
+                    <Form.Text className="text-muted"></Form.Text>
+                  </Form.Group>
+                  <Form.Group controlId="formBasicEmail">
+                    <Form.Control
+                      type="text"
+                      placeholder="Subject"
+                      name="subject"
+                      className="email"
+                    />
+                    <Form.Text className="text-muted"></Form.Text>
+                  </Form.Group>
+                  <Form.Group controlId="exampleForm.ControlTextarea1">
+                    <Form.Control
+                      className="text-form"
+                      as="textarea"
+                      rows="3"
+                      placeholder="Message"
+                      name="message"
+                    />
+                  </Form.Group>
+                  <Button type="submit" className="form-button">
+                    Send
+                  </Button>
+                </Form>
               </Container>
             </div>
           </Col>
